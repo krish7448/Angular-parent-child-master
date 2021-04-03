@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\views\\child",
+    "\\app\\views\\child\\child3",
+    "\\app\\views\\parent",
+    "\\app\\views\\parent\\parent"
+  ],
+  "SelectedNode": "\\app\\services",
+  "PreviewInSolutionExplorer": false
+}

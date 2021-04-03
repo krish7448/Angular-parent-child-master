@@ -1,0 +1,24 @@
+<div class="row" style="height:800px;margin:10px;">
+  <div class="col-sm-12" style="border:3px solid;">
+    <p>parent works!</p>
+    <div class="row">
+      <div class="col-sm-2">child 1 data:</div>
+      <div class="col-sm-10">
+        <input class="form-control" [(ngModel)]="child1Data" />
+      </div>
+    </div>
+    <div class="row" style="height:500px;margin:50px;">
+      <div class="col-sm-4" style="border:3px solid;">
+        <child1 [parentData]="child1Data" (data)="setChild1Data($event)"></child1>
+      </div>
+      <div class="col-sm-4" style="border:3px solid;">
+        <child2 [parentData]="child2Data"></child2>
+      </div>
+      <div class="col-sm-4" style="border:3px solid;">
+        <child3 [parentData]="child3Data"></child3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
